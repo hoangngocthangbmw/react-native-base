@@ -17,7 +17,6 @@ import ReactotronConfig from 'libraries/utils/ReactotronConfig';
 import Reactotron from 'reactotron-react-native'
 import LoadingModal from 'libraries/components/Loading/LoadingModal';
 import LoadingManager from 'libraries/components/Loading/LoadingManager';
-import Training from './Training';
 
 const store = configureStore(ReactotronConfig.configure());
 Reactotron.clear()
